@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #181818;
+    color: #f5f5f5;
+    margin: 2em;
+}
+
+h1 {
+  font-family: 'Cinzel', serif; /* Gothic-style Google font */
+  font-size: 3rem;
+  text-align: center;
+  color: #ff1e1e;
+  text-shadow:
+    2px 2px 0 #000,
+    4px 4px 5px rgba(0, 0, 0, 0.5),
+    0 0 10px #8b0000;
+  letter-spacing: 2px;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.content {
+    margin-top: 2em;
+    background: #222;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+    padding: 1em 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel img {
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #000;
+    scroll-snap-align: start;
+    background: #333;
+}
+
+ul {
+    margin-top: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 180px;
+}
+
+.release-date {
+    color: #aaa;
+    margin-top: 0.5em;
+    font-size: 1em;
+}
+
+.movie-title {
+    margin-top: 0.5em;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    text-align: center;
+}
